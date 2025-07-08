@@ -20,6 +20,11 @@ class Movie {
     }
     
     static let samepleData = [
-        Movie(title: "John Wick", releaseDate: Date(timeIntervalSinceReferenceDate: -402_000_000))
+        Movie(title: "John Wick", releaseDate: Date(timeIntervalSinceReferenceDate: -402_000_000)),
+        Movie(title: "Difficult People", releaseDate: Date(timeIntervalSinceReferenceDate: -20_000_000)),
+        Movie(title: "StarTrek", releaseDate: Date(timeIntervalSinceReferenceDate: 300_000_000)),
+        Movie(title: "The Chosen", releaseDate: Date(timeIntervalSinceReferenceDate: 120_000_000)),
+        Movie(title: "Interstellar", releaseDate: Date(timeIntervalSinceReferenceDate: 550_000_000)),
+        Movie(title: "Shrek", releaseDate: Date(timeIntervalSinceReferenceDate: -20_000_000)),
     ]
 }
