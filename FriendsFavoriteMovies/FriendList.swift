@@ -17,10 +17,6 @@ struct FriendList: View {
             ForEach(friends) { friend in
                 Text(friend.name)
             }
-            .task {
-                context.insert(Friend(name: "Israel"))
-                context.insert(Friend(name: "David"))
-            }
         }
     }
 }
