@@ -18,4 +18,8 @@ class Movie {
         self.title = title
         self.releaseDate = releaseDate
     }
+    
+    static let samepleData = [
+        Movie(title: "John Wick", releaseDate: Date(timeIntervalSinceReferenceDate: -402_000_000))
+    ]
 }

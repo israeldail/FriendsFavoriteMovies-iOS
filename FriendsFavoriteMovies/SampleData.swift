@@ -47,5 +47,9 @@ class SampleData {
         for friend in Friend.sampleData {
             context.insert(friend)
         }
+        
+        for movie in Movie.samepleData {
+            context.insert(movie)
+        }
     }
 }
